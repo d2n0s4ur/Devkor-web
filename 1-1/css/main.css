@@ -1,0 +1,103 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+.container {
+    width: 1000px;
+}
+
+.left {
+    width: 80%;
+    height: 200px;
+    float:left;
+    /* padding-right: 10px; */
+    /* background: cornflowerblue; */
+}
+
+.right {
+    width: 20%;
+    height: 200px;
+    float:left;
+    position: relative;
+    /* background: coral; */
+}
+
+.header {
+    width: 100%;
+    height: 25%;
+    /* background: gray; */
+}
+
+.bottom {
+    width: 100%;
+    height: 75%;
+    position: relative;
+    /* background: greenyellow; */
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: white;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.info {
+    float:left;
+    font-family: 'Nanum Gothic';
+}
+
+.name {
+    display: block;
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.time {
+    margin-top: 2px;
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: grey;
+    text-align: center;
+}
+
+.title {
+    font-family: 'nanumsquare';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.article {
+    font-family: 'Nanum Gothic';
+    font-size: 16.5px;
+    color: grey;
+    line-height: 1.5;
+    margin-right: 50px;
+}
+
+.pre {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.plus {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
+    width: 20%;
+    height: 20%;
+    border: none;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    font-size: 30px;
+}

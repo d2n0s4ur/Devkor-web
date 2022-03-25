@@ -97,8 +97,8 @@ input[type="email"] {
 }
 
 .check {
-    width: 11px;
-    height: 11px;
+    width: 9px;
+    height: 9px;
     display: inline;
     background-color: gray;
 }

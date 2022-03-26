@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
+
+div {
+    box-sizing: border-box;
+}
+
+input {
+    box-sizing: border-box;
+}
+
+textarea {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(41, 41, 41);
+}
+
+.contact {
+    font-family: 'Noto Sans';
+    width: 70%;
+    max-width: 410px;
+    height: 470px;
+    background-color: white;
+    margin: auto;
+    margin-top: 70px;
+    padding: 1px;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    vertical-align: text-top;
+    margin-bottom: 30px;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    padding: 45px;
+    padding-top: 30px;
+}
+
+.input_box {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.explain {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+input[type="email"] {
+    padding-left: 13px;
+}
+
+.name {
+    width: 100%;
+}
+
+.half {
+    width: 48%;
+    display: inline-block;
+}
+
+.message {
+    width: 100%;
+    resize: none;
+    height: 120px;
+}
+
+.controls {
+    width: 100%;
+    height: 20px;
+    margin-top: -5px;
+}
+
+.subs {
+    width: 40%;
+    float: left;
+    font-size: 13px;
+    text-align: left;
+}
+
+.check {
+    width: 9px;
+    height: 9px;
+    display: inline;
+    background-color: gray;
+}
+
+.submit {
+    width: 40%;
+    float: right;
+}
+
+.submit_button{
+    float: right;
+    width: 110px;
+    height: 28px;
+    background-color: rgb(255, 191, 53);
+    border: 1px solid rgb(255, 191, 53);
+    border-radius: 3px;
+    color: white;
+}

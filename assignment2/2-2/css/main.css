@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(178, 204, 214);
+}
+
+tbody tr {
+    height: 60px;
+}
+
+tr{
+    border-bottom: 1.2px solid rgb(178, 204, 214);
+}
+
+.container {
+    font-family: 'Source Sans Pro';
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    padding: 1px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(28, 64, 104);
+}
+
+.item-img{
+    padding-left: 30px;
+}
+
+.total {
+    padding-right: 30px;
+}
+
+.shopping-list {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px;
+    margin-top: 20px;
+    width: 650px;
+    height: 280px;
+    border-collapse: collapse;
+}
+
+.shopping-list thead {
+    color: rgb(139, 157, 177);
+    font-size: 13px;
+    height: 30px;
+    text-align: right;
+}
+
+.item-body {
+    width: 100%;
+    height: 50px;
+}
+.item-img {
+    height: 50px;
+    margin:auto;
+}
+
+.item-img img {
+    max-height: 50px;
+}
+
+.item-comp {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.item-comp img {
+    position: absolute;
+    bottom: 0px;
+    width: 25%;
+    height: 50%;
+}
+
+.item-name {
+    height: 50%;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(147, 173, 181);
+    vertical-align: top;
+}
+
+.amount {
+    color: rgb(174, 193, 200);
+    text-align: right;
+    font-size: 17px;
+}
+
+.price {
+    color: rgb(174, 193, 200);
+    text-align: right;
+    font-size: 17px;
+}
+
+.total {
+    color: rgb(28, 64, 104);
+    text-align: right;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.all_total {
+    font-size: 22px;
+}
+
+.controls{
+    width: 650px;
+    margin-top: 20px;
+}
+
+.edit {
+    width: 50%;
+    float: left;
+}
+
+.edit a{
+    color: rgb(70, 103, 135);
+}
+
+.admit {
+    width: 50%;
+    position: relative;
+    float: right;
+}
+
+.button-payment {
+    position: absolute;
+    right: 0;
+    width: 220px;
+    height: 50px;
+    background-color: rgb(19, 55, 97);
+    color :white;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}

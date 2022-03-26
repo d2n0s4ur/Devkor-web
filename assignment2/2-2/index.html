@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>shopping cart</title>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <span class="title">Your shopping cart</span>
+            <table class="shopping-list">
+                <thead>
+                    <tr>
+                        <th style="width: 20%;"></th>
+                        <th style="width: 30%; text-align: left;">ITEM</th>
+                        <th style="width: 5%;">AMOUNT</th>
+                        <th style="width: 15%;">PRICE</th>
+                        <th style="width: 15%; padding-right: 30px;">TOTAL</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td class="item-img">
+                            <img src="img/FE_70-200_mm_F2.8_GM_OSS.jpg">
+                        </td>
+                        <td class="item">
+                            <div class="item-comp">
+                                <img src="img/Sony_logo.svg">
+                            </div>
+                            <div class="item-name">FE 70-200 mm F2.8 GM OSS</div>
+                            <div style="clear: both;"></div>
+                        </td>
+                        <td class="amount">1</td>
+                        <td class="price">€ 1979.00</td>
+                        <td class="total">€ 1979.00</td>
+                    </tr>
+                    <tr>
+                        <td class="item-img">
+                            <img src="img/Sonnar_T_E_24mm_F1.8_ZA.png">
+                        </td>
+                        <td class="item">
+                            <div class="item-comp">
+                                <img src="img/Sony_logo.svg">
+                            </div>
+                            <div class="item-name">Sonnar T* E 24mm F1.8 ZA</div>
+                            <div style="clear: both;"></div>
+                        </td>
+                        <td class="amount">1</td>
+                        <td class="price">€ 989.00</td>
+                        <td class="total">€ 989.00</td>
+                    </tr>
+                    <tr style="height: 40px;">
+                        <td colspan='5' class="all_total total">€ 2968.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="controls">
+                <div class="edit">
+                    <a href="#">Edit your shopping cart</a>
+                </div>
+                <div class="admit">
+                    <button type="submit" class="button-payment">Choose payment method</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

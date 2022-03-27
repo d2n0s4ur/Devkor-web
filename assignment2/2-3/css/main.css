@@ -2,6 +2,8 @@
     margin: auto;
     text-align: center;
     width: 800px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
 }
 
 .container div {

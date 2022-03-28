@@ -53,6 +53,13 @@ h4, h5, p {
 	font-weight: 100;
 }
 
+.gray-button:hover {
+	background-color: rgb(253, 116, 116);
+	color: black;
+	border: 1px solid rgb(231, 94, 94);
+	cursor:pointer;
+}
+
 .show-more {
 	width: 110px;
 	height: 38px;
@@ -183,6 +190,7 @@ h4, h5, p {
 	margin: auto;
 	animation: fadeout 1s;
 	animation-fill-mode: forwards;
+	cursor:pointer;
 }
 
 @-webkit-keyframes fadeout {

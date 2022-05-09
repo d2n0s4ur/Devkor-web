@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+.content {
+    min-width: 400px;
+    width: 50%;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 5px;
+}
+
+.date {
+    margin-top: 20px;
+    font-family: 'Nato Sans KR';
+    font-size: 30px;
+}
+
+.weekday {
+    font-family: 'Nato Sans KR';
+    font-size: 20px;
+}
+
+.left-work {
+    font-family: 'Nato Sans KR';
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+hr {
+    margin: 5px;
+}
+
+.attribute {
+    width: 95%;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.checkbox {
+    flex-basis: 5%;
+}
+
+.name {
+    flex-basis: 85%;
+}
+
+.del {
+    flex-basis: 10%;
+}
+
+.addBtn {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.addarticle:hover {
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
